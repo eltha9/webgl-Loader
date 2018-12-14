@@ -56,32 +56,6 @@ class Element3d{
     }
 
     objectloading(){
-        // this.objLoader = new THREE.OBJLoader()
-        
-
-        // this.objLoader.load(this.obj, (object)=>{
-
-        //     object.scale.set(this.ratio, this.ratio, this.ratio)
-            
-
-        //     switch(this.type){
-        //         case "mtl":
-        //             console.log('MTL')
-        //             this.mtlLoad(object) 
-        //             this.scene.add(object)
-        //             break
-        //         case "none":
-        //             console.log('NONE')
-        //             break
-        //         default:
-        //             console.log('DEFAULT')
-        //             this.scene.add(object)
-        //             this.pngLoad(object)
-        //     }
-            
-            
-            
-        // })
 
         //texture manager
         switch(this.type){
