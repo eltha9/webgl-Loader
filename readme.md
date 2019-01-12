@@ -9,17 +9,26 @@ You nedd some script to make it work :
 - `<script src="objloader.js"></script>`
 - `<script src="mtlloader.js"></script>`
 - `<script src="control.js"></script>`
+- your 3d model with or without texture 
 
 ## CONSTRUCTOR
 
-`Element3d( width, height, type, obj, beautify, ratio)`
+`Element3d( width, height, type, obj, beautify, ratio, DOM, rotateAngle, camPos, objPos)`
 
 - `width`: width of your canvas 
-- `height` : height of your canvas
-- `type` : type of the texture, types are : 
+- `height`: height of your canvas
+- `percent`: percentage of the window take by the 3d canvas
+- `type`: type of the texture, types are : 
     - `mtl`: for **.mtl** files
     - `png`: for **.png** files
     - `none`: disable texture 
 - `obj`: link of the **.obj** file
-- `beautify`: link of the **.mtl** or **.png** file
+- `texture`: texture of the .obj file, could be :
+    - a string containing the path of an **.png** file
+    - a string containing the path of an  **.mtl** file
+    - a new THREE.js Mesh Material
 - `ratio`: not a ratio but more the scale you want for your model
+- `DOM`: DOM element where the canvas will be create
+- `rotateAngle`: angle in degree of the object rotation
+- `camPos`: an object with x / y / z of the camera position
+- `objPos`: postion of the object in x / y / z axes
