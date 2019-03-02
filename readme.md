@@ -1,6 +1,7 @@
 # WEBGL LOADER
 
-This loader work whith the `3dClass.js` file. It contains the `Element3d()` class. it work with Three Js 
+This loader work whith the `3dClass.js` file. It contains the `Element3d()` class. it work with Three Js.
+You only need to call `Element3d()` to your script to make it work
 
 ### Needed
 You nedd some script to make it work :
@@ -9,6 +10,7 @@ You nedd some script to make it work :
 - `<script src="objloader.js"></script>`
 - `<script src="mtlloader.js"></script>`
 - `<script src="control.js"></script>`
+- `<script src="3dClass.js"></script>`
 - your 3d model with or without texture 
 
 ## CONSTRUCTOR
